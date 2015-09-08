@@ -1,0 +1,31 @@
+{
+  "name": "colori-api",
+  "version": "1.0.0",
+  "description": "The API backend for Colori",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Rourke",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.0",
+    "bcryptjs": "^2.2.0",
+    "body-parser": "^1.13.2",
+    "compression": "^1.5.1",
+    "debug": "^2.2.0",
+    "express": "^4.13.1",
+    "express-jwt": "^3.0.1",
+    "express-unless": "^0.1.1",
+    "hiredis": "^0.4.0",
+    "jsonwebtoken": "^5.0.4",
+    "lodash": "^3.10.0",
+    "mongoose": "^4.1.0",
+    "morgan": "^1.6.1",
+    "on-finished": "^2.3.0",
+    "redis": "^0.12.1",
+    "response-time": "^2.3.1",
+    "util": "^0.10.3",
+    "uuid": "^2.0.1"
+  }
+}

@@ -1,0 +1,4 @@
+<h2>Users</h2>
+<ul ng-if="users.length" ng-repeat="user in users">
+	<li><a href="/users/{{user.username}}">{{user.username}}</a></li>
+</ul>
